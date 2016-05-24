@@ -2,20 +2,25 @@
 output:
   html_document:
     theme: cosmo
+    toc_depth: 3
+    toc_float:
+      collapsed: false
 ---
 
-## Statistics for Genomic Data Science
+# Statistics for Genomic Data Science
 
-**Instructor:** [Jeff Leek](http://www.jtleek.com/)
+## Instructor
+
+* [Jeff Leek](http://www.jtleek.com/)
 
 
-**Class Website:**
+## Class Website
 
 * [Statistics for Genomic Data Science](https://www.coursera.org/course/genstats)
 * [Genomic Data Science Specialization](https://www.coursera.org/specialization/genomics/41)
 
 
-**Resources:**
+## Resources
 
 * [Installing R for Windows](https://www.youtube.com/watch?v=LII6of-5Odw)
 * [Installing R for Mac](https://www.youtube.com/watch?v=xokJUwn0mis)
@@ -26,11 +31,10 @@ output:
 * [PH525x Statistics for Genomics Book](http://genomicsclass.github.io/book/)
 
 
-**Course Materials**
-
+## Course Materials
 
 | Week/Lecture  | Lecture  |  Video | Notes | Code |
-|---|---|---|---|---|
+|:------------|:------------|:------------|:------------|:------------|
 | 0/1 | Welcome | | [Google Slides](https://docs.google.com/presentation/d/1M64qJM4nWCGSqfoIvFOYTmef7R38qz9XrWvS09qHowQ/edit?usp=sharing) [pdf](lecture_notes/00_01_Welcome.pdf)|   |
 | 0/2 | What is statistics? | | [Google Slides](https://docs.google.com/presentation/d/1Ct_5FOgfRPIxu2apxDBQBvuMHznsPZcykllQMjvcx0A/edit?usp=sharing) [pdf](lecture_notes/00_02_What is statistics-.pdf)|   |
 | 0/3 | Finding statistics you can trust | | [Google Slides](https://docs.google.com/presentation/d/17UfZTqLkrzNDcHutbZLbRurK-rQTU7rljr2ih8eBpoI/edit?usp=sharing) [pdf](lecture_notes/00_03_Finding_Statistics_You_Can_Trust.pdf)|   |
@@ -97,8 +101,7 @@ output:
 | 4/14 | Course Wrap-up | | [Google Slides](https://docs.google.com/presentation/d/1DNrW5ZN17zsEXnwOWIVVVQ7VYSNqOO9wUKXuHDfw6TQ/edit?usp=sharing) [pdf](lecture_notes/04_14_WrapUp.pdf) |  |
 |---|---|---|---|---|
 
-
-**Course R package**
+## Course R package
 
 You can get all of the code used in the class by installing the R package:
 
@@ -123,7 +126,7 @@ vignette("01_13_clustering")
 
 -->
 
-**Miscellaneous**
+## Miscellaneous
 
 Feel free to submit typos/errors/etc via the github repository associated with the class: 
 https://github.com/jtleek/genstats_site
